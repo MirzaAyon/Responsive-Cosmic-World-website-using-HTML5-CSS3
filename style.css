@@ -86,6 +86,7 @@ nav {
     height: calc(100vh - 80px);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    min-height: 500px;
 }
 
 .banner-left {
@@ -197,4 +198,24 @@ nav {
     font-family: inherit;
     outline: 0;
     border: 1px solid #FF00BE;
+}
+
+footer {
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ----------Responsive css------------ */
+@media (max-width:950px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-left h1 {
+        font-size: 35px;
+    }
 }
