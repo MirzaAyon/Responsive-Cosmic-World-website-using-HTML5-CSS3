@@ -116,3 +116,43 @@ nav {
 .banner-right img {
     width: 100%;
 }
+
+/* feature part */
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-icon {
+    background-color: #FF00BE;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    color: #fff;
+}
+
+.card h3 {
+    color: #FF00BE;
+    font-size: 30px;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+    color: #FF00BE;
+}
