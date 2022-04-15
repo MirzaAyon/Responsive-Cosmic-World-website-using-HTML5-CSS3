@@ -38,6 +38,18 @@ body {
     box-shadow: 0 2px 0 #a5075e;
 }
 
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FF00BE;
+    margin: 50px 0;
+}
+
 header {
     /* height: 100vh; */
     background-image: url(images/cloud.png);
