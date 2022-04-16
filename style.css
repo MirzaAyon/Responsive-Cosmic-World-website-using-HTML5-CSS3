@@ -209,6 +209,15 @@ footer {
 
 }
 
+/* nav toggler */
+#nav-toggler {
+    display: none;
+}
+
+.nav-toggler-icon {
+    display: none;
+}
+
 /* ----------Responsive css------------ */
 @media (max-width:950px) {
     .gallery {
@@ -217,5 +226,36 @@ footer {
 
     .banner-left h1 {
         font-size: 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .banner {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .feature,
+    .gallery,
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo img {
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .banner-left {
+        order: 2;
+        padding: 50px 0;
+    }
+
+    .nav-toggler-icon {
+        display: block;
     }
 }
